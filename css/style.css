@@ -6,14 +6,27 @@ body {
     background-color: hsl(185, 75%, 39%);
 }
 
+.main-box {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    ;
+    height: 350px;
+    width: 400px;
+    background-color: white
+}
+
 h1 {
-    float: right;
     font-family: Kumbh Sans;
 }
 
 .bottom-circle {
     position: absolute;
     left: 560px;
-    top: 290px;
+    top: 315px;
 }
-footer{position: absolute; top: 620px;}
+
+footer {
+    position: absolute;
+    top: 620px;
+}

@@ -3,10 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
 
   <link rel="stylesheet" href="css/style.css">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 
   <title>Victor Crest</title>
@@ -14,53 +17,37 @@
 </head>
 
 <body>
-  <svg class="circle-1" width="700" height="430" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
-        <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
-        <stop stop-color="#53FFEE" offset="99.94%" />
-      </linearGradient>
-    </defs>
-    <ellipse fill="url(#a)" transform="rotate(-100 489 489)" cx="1150" cy="200" rx="489" ry="488" fill-rule="evenodd"
-      opacity=".5" />
-  </svg>
-
-  <section class="main-box">
-    <div class="background-image"><img class="main-box2" src="images/bg-pattern-card.svg" alt=""></div>
-    <img class="victor" src="images/image-victor.jpg" alt="">
-    <h1>Victor Crest <span>26</span>
-    </h1>
-    <p> London</p>
-    <table>
-      <tr>
-        <th>80K</th>
-        <th>803K</th>
-        <th>1.4K</th>
-      </tr>
-      <tr>
-        <td>Followers</td>
-        <td>Likes</td>
-        <td>Photos</td>
-      </tr>
-    </table>
-
-  </section>
-
-  <svg class="bottom-circle" width="800" height="325" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
-        <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
-        <stop stop-color="#53FFEE" offset="99.94%" />
-      </linearGradient>
-    </defs>
-    <ellipse fill="url(#a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488"
-      fill-rule="evenodd" opacity=".25" />
-  </svg>
-
-  <footer>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>
-  </footer>
+  <div class="main">
+    <div class="background">
+      <img class="top-img" src="images/bg-pattern-top.svg" alt="">
+      <img class="bottom-img" src="images/bg-pattern-bottom.svg" alt="">
+    </div>
+    <section class="main-box">
+      <div>
+        <img class="main-box2" src="images/bg-pattern-card.svg" alt="">
+      </div>
+      <img class="victor" src="images/image-victor.jpg" alt="">
+      <h1>Victor Crest <span>26</span>
+      </h1>
+      <p> London</p>
+      <table>
+        <tr>
+          <th>80K</th>
+          <th>803K</th>
+          <th>1.4K</th>
+        </tr>
+        <tr>
+          <td>Followers</td>
+          <td>Likes</td>
+          <td>Photos</td>
+        </tr>
+      </table>
+    </section>
+    <div class="links">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by <a href="https://mylcevaleksandr.github.io/cvsite/">Myltsev Aleksandr</a>
+    </div>
+  </div>
 </body>
 
 </html>

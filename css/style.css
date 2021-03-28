@@ -46,10 +46,12 @@
 }
 
 .victor {
+    display: flex;
+    justify-content: center;
     border-radius: 50%;
     position: relative;
-    left: 105px;
-    top: -50px;
+    left: 33%;
+    top: -53px;
     border-style: solid;
     border-color: #fff;
 }
@@ -97,14 +99,18 @@ table {
     justify-content: space-around;
 }
 
-a { font-weight: 600;
+a {
+    font-weight: 600;
     color: black;
     text-decoration: none;
 }
-a:hover{color: yellow;
-font-weight: 700;}
 
-@media (min-width: 1440px) {
+a:hover {
+    color: yellow;
+    font-weight: 700;
+}
+
+@media (min-width: 1200px) {
 
     .top-img,
     .bottom-img {
@@ -123,4 +129,7 @@ font-weight: 700;}
         left: 50%;
     }
 
+    .victor {
+        left: 123px;
+    }
 }

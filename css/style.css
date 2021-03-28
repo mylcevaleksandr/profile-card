@@ -48,7 +48,7 @@
 .victor {
     border-radius: 50%;
     position: relative;
-    left: 126px;
+    left: 105px;
     top: -50px;
     border-style: solid;
     border-color: #fff;
@@ -89,7 +89,7 @@ td {
     color: hsl(229, 23%, 23%);
     font-size: 18px;
     position: absolute;
-    top: 610px;
+    top: 600px;
 }
 
 table {

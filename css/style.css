@@ -3,27 +3,58 @@
 }
 
 body {
-    background-color: hsl(185, 75%, 39%);
-}
-
-.main-box {
-    position: absolute;
-    top: 150px;
-    left: 500px;
-    ;
-    height: 350px;
-    width: 400px;
-    background-color: white
-}
-
-h1 {
     font-family: Kumbh Sans;
+    background-color: hsl(185, 75%, 39%);
 }
 
 .bottom-circle {
     position: absolute;
     left: 560px;
     top: 315px;
+    z-index: -1;
+
+}
+
+.main-box {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    top: 150px;
+    left: 450px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.main-box2 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.victor {
+    border-radius: 50%;
+    position: relative;
+    left: 126px;
+    top: -50px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+span {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+p {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+table {
+viewport-fit: 100%<;
 }
 
 footer {
